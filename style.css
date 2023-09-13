@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: lavender;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+}
+h1{
+  color:darkslateblue;
+}
+h1:hover{
+  color:slateblue
+}
+h3{
+  color:slateblue;
+}
+h3:hover{
+  color:mediumslateblue;
+}
+a{
+  color: lavender;
+  background-color: slateblue;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
