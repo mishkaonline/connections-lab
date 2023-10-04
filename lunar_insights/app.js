@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
 			document.getElementById('dataset').innerHTML = `
 			<p>Today is <strong>${date}</strong></p>
 			<p><strong>Current moon phase: </strong>${phase} ${emoji}</p>
-			<p><strong>Zodiac: Moon in </strong>${zodiac}</p>
+			<p><strong>Zodiac: </strong>Moon in ${zodiac}</p>
 			<p><strong>Moonrise: </strong>${moonrise}</p>
 			<p><strong>Moonset: </strong>${moonset}</p>
 			<p><strong>Next new moon: </strong>${formattedNextNewMoon}</p>
