@@ -1,0 +1,78 @@
+body {
+    font-family: 'Handjet', cursive;
+    font-weight: 300;
+    color: white;
+    background-color: #100821;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    z-index: 0;
+}
+
+#start {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+
+p {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+strong {
+    font-weight: 500;
+}
+
+#start_button {
+    display: inline-block;
+    font-size: 3em;
+    padding: 20px 30px;
+    color: white;
+    background-color: #45a080;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#start_button:hover {
+    transition: background-color 0.5s ease;
+    background-color: #DA70D6;
+}
+
+#dataset {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    line-height: 2em;
+    top: 100vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
